@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Aadhunik Woodworking Machinery</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+  <!--MODAL for PDF-->
+    <div class="modal fade" id="pdf" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Aadhunik Woodworking Machinery Catalogue</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="col-sm-12">
+              <form action="backend/pdf.php" method="post">
+                <div class="form-group">
+                  <input type="text" name="name" placeholder="Full Name" class="form-control" required>
+                  <br>
+                  <input type="email" name="email" placeholder="Email ID" class="form-control" required>
+                  <br>
+                  <input type="number" name="phone" placeholder="Mobile No." class="form-control">
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="form-control btn btn-primary" name="button">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--END MODAL FOR PDF-->
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="index.html"><img src="img/Addhunik_logo.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-has-children"><a href="#about">About Us</a>
+            <ul>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="vnm.html">Vision And Mission</a></li>
+              <li><a href="testimonial.html">Testimonials</a></li>
+            </ul>
+          </li>
+          <li class="menu-has-children"><a href="#about">Our Product</a>
+            <ul>
+              <li class="menu-has-children"><a href="#">Panel Processing Line</a>
+                <ul>
+                  <li class="menu-has-children"><a href="#">Sliding Table Saw</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">Sliding Table Saw</a>
+                        <ul>
+                          <li><a href="product/sts/ps132.html">PS 132</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Digital Sliding Table Saw</a>
+                        <ul>
+                          <li><a href="product/sts/ps132k.html">PS 132K</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">CNC Sliding Table Saw</a>
+                        <ul>
+                          <li><a href="product/sts/ps132pv.html">PS 132PV</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Beam Saw</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">Semi-Automatic</a>
+                        <ul>
+                          <li><a href="product/bs/rc232.html">Rapid Cut 232</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Automatic</a>
+                        <ul>
+                          <li><a href="product/bs/rc832cp.html">Rapid Cut 832CP</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Edge Banding Machine</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">Manual</a>
+                        <ul>
+                          <li><a href="product/ebm/meb305.html">MEB 305</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Automatic</a>
+                        <ul>
+                          <li><a href="product/ebm/re365.html">Rapid Edge 365</a></li>
+                          <li><a href="product/ebm/re365j.html">Rapid Edge 365J</a></li>
+                          <li><a href="product/ebm/re465.html">Rapid Edge 465</a></li>
+                          <li><a href="product/ebm/re465js.html">Rapid Edge 465JS</a></li>
+                          <li><a href="product/ebm/re386jk.html">Rapid Edge 386JK</a></li>
+                          <li><a href="product/ebm/re486jk.html">Rapid Edge 486JK</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Angular Automatic</a>
+                        <ul>
+                          <li><a href="#">Rapid Edge 396JS</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Boring Machine</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">Single Head</a>
+                        <ul>
+                          <li><a href="product">MB 121</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Three-Head</a>
+                        <ul>
+                          <li><a href="product">MB 533</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Press</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">Hot Press</a>
+                        <ul>
+                          <li class="menu-has-children"><a href="#">Single Daylight</a>
+                            <ul>
+                              <li><a href="product">HP 48/120/1</a></li>
+                              <li><a href="product">HP 48/160/1</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-has-children"><a href="#">Three Daylight</a>
+                            <ul>
+                              <li><a href="product">HP 48/160/3</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Cold Press</a>
+                        <ul>
+                          <li class="menu-has-children"><a href="#">Hydraulic</a>
+                            <ul>
+                              <li><a href="product">CP48/50/1</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-has-children"><a href="#">Hydraulic Cold Press <br> (with Roller Device)</a>
+                            <ul>
+                              <li><a href="product">CP48/100/1-R</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">CNC</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">CNC Router</a>
+                        <ul>
+                          <li><a href="product">NM-48</a></li>
+                          <li><a href="product">Rapid Cut-2408</a></li>
+                          <li><a href="product">Rapid Cut-2408D</a></li>
+                          <li><a href="product">Rapid Rout-2612</a></li>
+                          <li><a href="product">Rapid Rout-2612D</a></li>
+                          <li><a href="product">Rapid Rout-3409</a></li>
+                          <li><a href="product">Rapid Rout-3409D</a></li>
+                          <li><a href="product">Rapid Rout-3710</a></li>
+                          <li><a href="product">Rapid Rout-3710D</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">CNC Router with Loading<br>and Unloading System</a>
+                        <ul>
+                          <li class="menu-has-children"><a href="#">CNC Router</a>
+                            <ul>
+                              <li><a href="product">Rapid Rout-3409D</a></li>
+                              <li><a href="product">Rapid Rout-PTP-3013</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-has-children"><a href="#">Auto Loading Machine</a>
+                            <ul>
+                              <li><a href="product">KA2408</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-has-children"><a href="#">Auto Unloading Machine</a>
+                            <ul>
+                              <li><a href="product">KA9408</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">CNC Boring Center</a>
+                        <ul>
+                          <li><a href="product">Rapid Drill-2309D</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">CNC Horizontal<br>Boring Machine</a>
+                        <ul>
+                          <li><a href="product">Rapid Drill-3018C</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">CNC Labeling Machine</a>
+                        <ul>
+                          <li><a href="product">KN-1408T</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Glue Spreader</a>
+                    <ul>
+                      <li><a href="product">GS6213<br>Double Side</a></li>
+                      <li><a href="product">GS6113<br>Single Side</a></li>
+                      <li><a href="product">GS6206<br>Double Side</a></li>
+                      <li><a href="product">GS6106<br>Single Side</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Auto Feeder</a>
+                    <ul>
+                      <li><a href="product">V 480</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Dust Collector</a>
+                    <ul>
+                      <li><a href="product">DC9030</a></li>
+                      <li><a href="product">DC9040</a></li>
+                      <li><a href="product">DC9075</a></li>
+                      <li><a href="product">DC9011</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-has-children"><a href="#">Solidwood Line</a>
+                <ul>
+                  <li class="menu-has-children"><a href="#">Four-Side Moulder</a>
+                    <ul>
+                      <li><a href="product">FSM-523A</a></li>
+                      <li><a href="product">FSM-623A</a></li>
+                      <li><a href="product">FSM-5020C (5 Spindle)</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Double-Side Planer</a>
+                    <ul>
+                      <li><a href="product">DSP-204F-H</a></li>
+                      <li><a href="product">DSP-206F-H</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Rip Saw</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">Multi-Blade Rip Saw</a>
+                        <ul>
+                          <li><a href="product">MRS-145E</a></li>
+                          <li><a href="product">MRS-145H</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Straight Line Rip Saw<br>Bottom Blade</a>
+                        <ul>
+                          <li><a href="product">SR-163S-T</a></li>
+                          <li><a href="product">SR-164A-T</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Straight Line Rip Saw<br>Top Blade</a>
+                        <ul>
+                          <li><a href="product">SR-153D</a></li>
+                          <li><a href="product">SR-154D</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Wide Belt Sander</a>
+                    <ul>
+                      <li><a href="product">SRP-630B</a></li>
+                      <li><a href="product">SRP-1000B</a></li>
+                      <li><a href="product">SRP-1300B</a></li>
+                      <li><a href="product">SRRP-1300C</a></li>
+                      <li><a href="product">SRP-RP-1000</a></li>
+                      <li><a href="product">SRP-RP-1300</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Band Saw</a>
+                    <ul>
+                      <li><a href="product">CS-450</a></li>
+                      <li><a href="product">CNCBS-359</a></li>
+                      <li><a href="product">BS-500</a></li>
+                      <li><a href="product">BS-600</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Planer</a>
+                    <ul>
+                      <li class="menu-has-children"><a href="#">Surface Planer</a>
+                        <ul>
+                          <li><a href="product">SP-300SC</a></li>
+                          <li><a href="product">SP-400LSC</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Automatic Surface Planer</a>
+                        <ul>
+                          <li><a href="product">ASP-400SC</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-has-children"><a href="#">Heavy Duty Thickness Planer</a>
+                        <ul>
+                          <li><a href="product">HDTP-500SC</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">High Speed Router</a>
+                    <ul>
+                      <li><a href="product">HSR-620</a></li>
+                      <li><a href="product">HSR-730</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children"><a href="#">Sanders</a>
+                    <ul>
+                      <li><a href="product">HBS-200</a></li>
+                      <li><a href="product">VSS-102</a></li>
+                      <li><a href="product">OES-170</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-has-children"><a href="#services">Services</a>
+            <ul>
+              <li><a href="#">Other Services</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Guide to select a right product</a></li>
+
+          <li class="menu-active menu-has-children"><a href="">Contact Us</a>
+            <ul>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="business.html">Business Enquiry</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero" style="background: url(img/contactus.png) top center; background-size: cover; height: 50vh;">
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <form id="contactForm" method="post" autocomplete="off">
+              <input autocomplete="false" name="hidden" type="text" style="display:none;">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="fname">First Name</label>
+                  <input type="text" name="fname" class="form-control form-control-lg" id="fname" required autocomplete="off">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="lname">Last Name</label>
+                  <input type="text" name="lname" class="form-control form-control-lg" id="lname" required autocomplete="off">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" class="form-control form-control-lg" required autocomplete="off">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="email">Phone</label>
+                  <input type="number" name="phone" id="phone" class="form-control form-control-lg" autocomplete="off">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label for="message">Write Message</label>
+                  <textarea name="message" id="message" class="form-control form-control-lg" cols="30" rows="8" required autocomplete="off"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary btn-lg btn-block">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-4">
+            <h5 class="text-uppercase mb-3">Address</h5>
+            <p class="mb-5">98 West 21th Street, <br> Suite 721 <br> New York NY 10016</p>
+
+            <h5 class="text-uppercase mb-3">Email Us At</h5>
+            <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a> <br> <a href="mailto:customer@yourdomain.com">customer@yourdomain.com</a></p>
+
+            <h5 class="text-uppercase mb-3">Call Us</h5>
+            <p class="mb-5">Phone: (+1) 435 3533 <br> Mobile: (+1) 435 3533 <br> Fax: (+1) 435 3534</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #about -->
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="copyright">
+              &copy; 2018 Aadhunik Woodworking Machinery | All Rights Reserved
+            </div>
+            <div class="credits">
+              Design by <a href="https://www.dgtechsolution.com/" target="_blank">Digitech Solutions</a>
+            </div>
+          </div>
+        </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script>
+    $(function(){
+      $("#contactForm").submit(function(e){
+        e.preventDefault();
+        var form_data = $(this).serialize();
+        $('input[type="submit"]').val("Sending Message...");
+        $.ajax({
+          type: "POST",
+          url: "backend/contact.php",
+          dataType: "json",
+          data: form_data
+        }).done(function (data){
+          $('input[type="submit"]').removeClass('btn-primary');
+          $('input[type="submit"]').addClass('btn-success');
+          $('input[type="submit"]').val("Message Sent...");
+          $("#contactForm").closest('form').find("input[type='text'],input[type='number'],input[type='email'], textarea").val("");
+        }).fail(function(data){
+          $('input[type="submit"]').removeClass('btn-primary');
+          $('input[type="submit"]').addClass('btn-danger');
+          $('input[type="submit"]').val("Sending Failed...");
+          $("#contactForm").closest('form').find("input[type='text'],input[type='number'],input[type='email'], textarea").val("");
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
