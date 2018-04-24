@@ -520,7 +520,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   min-height: 300px;
   background: url(../img/mission.png) center top no-repeat;
   margin-bottom: 10px;
+
 }
+
 #about .about-container .content {
   background: #fff;
 }
